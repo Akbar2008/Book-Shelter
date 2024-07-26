@@ -2,6 +2,7 @@ import Arrow from "../../../public/icon/arrow.svg";
 import Book from "../../../public/icon/book.svg";
 
 export const Section = () => {
+  
   return (
     <section className="w-full min-h-screen">
       <div className="w-[1440px] m-auto flex ">
