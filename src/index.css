@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@font-face {
+  font-family: "SF Pro Text", sans-serif;
+  src: url("./Components/Fonts/SF\ Pro\ Text/SFPRODISPLAYREGULAR.OTF");
+}
+@font-face {
+  font-family: "GT America", sans-serif;
+  src: url("./Components/Fonts/GT\ America/fonnts.com-GT_America_Regular.ttf");
+}
+:root {
+  --font-family: "Rubik", sans-serif;
+  --second-family: "Noto Sans", sans-serif;
+  --third-family: "SF Pro Text", sans-serif;
+  --font3: "GT America", sans-serif;
+  --font4: "Montserrat", sans-serif;
+  --font5: "Dancing Script", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
